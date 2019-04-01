@@ -10,7 +10,7 @@
 
     if (isset($_GET['sendmessage'])) {
 
-        $subject = "Hello";
+        $subject = "Hello there";
         $password = htmlentities(strip_tags(trim($password)));
         $body = htmlentities(strip_tags(trim($_GET['body'])));
         $to = "amaechilegend@gmail.com";
